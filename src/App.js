@@ -1,12 +1,20 @@
-import './App.css';
+import { Fragment } from "react";
+import Header from "./partials/Header/Header.jsx";
+import Footer from "./partials/Footer/Footer.jsx";
+import MainRoutes from "./routes/Main.route.jsx";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="">
-        <h1>Funcionando</h1>
-      </header>
-    </div>
+    <body className="d-flex flex-column">
+      <Header />
+
+      <main className="container-fluid">
+        HOLA
+      </main>
+
+      <Footer />
+    </body>
   );
 }
 
