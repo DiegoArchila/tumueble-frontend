@@ -14,7 +14,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.bg-primary {
-  background-color: var(-bg-Color-primary);
-}

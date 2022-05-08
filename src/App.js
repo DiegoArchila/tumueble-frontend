@@ -10,7 +10,7 @@ function App() {
       <Header />
 
       <main className="container-fluid">
-        HOLA
+        <MainRoutes />
       </main>
 
       <Footer />
